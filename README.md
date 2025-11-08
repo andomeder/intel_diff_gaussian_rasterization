@@ -14,7 +14,7 @@ This implementation is based on the paper **"3D Gaussian Splatting for Real-Time
 ## Hardware Requirements
 
 - **GPU**: Intel Arc GPU (A-series, B-series) with Level Zero support
-- **Drivers**: Intel Graphics Driver 101.5234 or newer
+- **Drivers**: Native Support on Linux Kernel 6.7+. Ensure current Mesa.
 - **Memory**: 4GB+ VRAM recommended
 
 ### Tested Configuration
