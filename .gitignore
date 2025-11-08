@@ -1,0 +1,44 @@
+# Build artifacts
+build/
+build_copy/
+dist/
+out/
+*.egg-info/
+__pycache__/
+*.pyc
+*.pyo
+*.so
+*.o
+*.a
+
+# Python
+.pytest_cache/
+.coverage
+htmlcov/
+*.dump
+
+# Packages
+*.zip
+
+# Test outputs
+comparison_result.png
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Temporary/old files
+*copy.py
+*_former.sh
+mise.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Distribution files
+dist/
+*.whl
+*.tar.gz
